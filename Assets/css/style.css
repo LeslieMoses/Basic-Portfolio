@@ -1,0 +1,127 @@
+
+
+/* dk what the above is 4*/
+
+* {
+	box-sizing: border-box;
+	font: #777777;
+}
+
+.wrapper {
+	width: 960px;
+		overflow: auto;
+
+	background-color: grey;
+
+}
+
+.top {
+	background-color: white;
+	border: solid 1px black;
+	width: 100%;
+	height: 80px;
+	vertical-align: middle;
+}
+
+header {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 5px;
+	width: 200px;
+	height: 80px;
+	position: relative;
+	left: 80px;
+	text-align: center;
+
+}
+
+
+h2 {
+	color: #4aaaa5;
+}
+
+a{
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	
+
+
+}
+#links {
+	word-spacing: 1em;
+	text-align: right;
+	color: black;
+	border-width: solid 1px black;
+    position: relative;
+    bottom: 50px;
+    right: 20px;
+    list-style-type: none;
+
+}
+
+.main {
+	Width:100%;
+	margin: 0 auto;
+
+}
+
+hr {
+	color: #777777;
+}
+
+#me {
+	margin: 5px 15px 10px 10px;
+	float: left;
+
+}
+
+.about {
+	width: 650px;
+	height: 400px;
+	background-color: white;
+	color: #4aaaa5;	
+	border: solid 1px black;
+	line-height: 200%;
+	padding: 20px;
+	margin-top: 30px;
+	margin-left: 15px;
+	margin-bottom: 30px;
+	float:left;
+	white-space: normal;
+
+}
+
+h1{
+
+}
+
+p {
+	float:left;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.Connect {
+	background-color: white;
+	width: 270px;
+	margin-top: 30px;
+	margin-left: 17px;
+	margin-right: 20px;
+	border: solid 1px black;
+	float: left;
+
+}
+
+
+footer {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 13px;
+	background-color: #ccc;
+	clear: both;
+	overflow: auto;
+	padding: 20px;
+	border-top: solid 7px #4aaaa5;
+
+}
