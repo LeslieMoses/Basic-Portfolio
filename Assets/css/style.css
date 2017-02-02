@@ -9,119 +9,252 @@
 
 .wrapper {
 	width: 960px;
-		overflow: auto;
+	margin: 0 auto;
+	position: relative;
 
-	background-color: grey;
-
-}
-
-.top {
-	background-color: white;
-	border: solid 1px black;
-	width: 100%;
-	height: 80px;
-	vertical-align: middle;
 }
 
 header {
+	background-color: white;
+	border-bottom: solid .7px #ccc;
+	width: 100%;
+	height: 80px;
+	vertical-align: middle;
+
+}
+
+
+#yourName {
 	background-color: #4aaaa5;
 	color: white;
 	padding: 5px;
 	width: 200px;
 	height: 80px;
 	position: relative;
-	left: 80px;
+	left: 140px;
 	text-align: center;
+ }
 
+ h1 {
+	font-size: 30px;
 }
 
+ .portfolio {
+	width: 560px;
+	height: 680px;
+	background-color: white;
+	line-height: 200%;
+	padding: 40px;
+	position: relative;
+	left: 140px;
+	margin-top: 30px;
+	margin-bottom: 80px;
+	white-space: normal;
+ }
+
+ #box {
+ 	width: 100%;
+ 	padding: 30px;
+ 	line-height: 500%; 
+ }
+
+ .dartish {
+  	float: left;
+ }
+
+ h3{
+ 	position: absolute;
+ 	top: 40px; 
+    width: 187px; 
+     background-color: #4aaaa5;
+     text-decoration: none;
+     text-align: center;
+     padding: 0;
+     color: white;
+
+ }
+
+ #dartish {
+ 	float: left;
+ 	margin-right:20px;
+
+ }
+
+ span {
+ 	color:black;
+ }
+
+ #copper {
+ 	float: left;
+ 	margin-left: 20px;
+ 	margin-bottom: 30px;
+
+ }
+
+ #phone {
+ 	float: left;
+ 	margin-right: 20px;
+ 	margin-bottom: 30px;
+
+
+ }
+
+ #plugs {
+ 	float: left;
+	margin-left: 20px;
+ 	margin-bottom: 30px;
+ }
+ #tv {
+ 	float: left;
+ }
+ 
+
+h1.port{
+	color: #4aaaa5;
+	text-align: left;
+}
+
+h1.con{
+	color: #4aaaa5;
+	text-align: left;
+}
 
 h2 {
 	color: #4aaaa5;
+	text-align: center;
 }
 
-a{
+input {
+	width: 100%;
+    border: solid .2px #aaa;
+    padding: 4px;
+ 	font-family: Arial, Helvetica, sans-serif;
+	font: #777;
+}
+
+textarea {
+	width: 100%;
+	height: 170px;    
+	border: solid .2px #aaa;
+    padding: 4px;
+
+}
+
+button  {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 16px 28px;
+    text-decoration: none;
+    margin: 8px 6px;
+    cursor: pointer;
+
+}
+
+a {
 	text-decoration: none;
 	font-family: Arial, Helvetica, sans-serif;
-	
-
-
+	color: #777777;
+	color:inherit;
+ 
 }
-#links {
+#nav {
 	word-spacing: 1em;
 	text-align: right;
-	color: black;
+	color: #777;
 	border-width: solid 1px black;
     position: relative;
     bottom: 50px;
-    right: 20px;
+    right: 375px;
     list-style-type: none;
 
 }
 
 .main {
-	Width:100%;
+	width:100%;
 	margin: 0 auto;
 
 }
 
 hr {
-	color: #777777;
+	color: #dddddd;
+    border-width: 1.5px;
+	width: 100% 
 }
 
 #me {
-	margin: 5px 15px 10px 10px;
+	margin: 25px 15px 10px 10px;
 	float: left;
 
 }
 
 .about {
 	width: 650px;
-	height: 400px;
+	height: 380px;
 	background-color: white;
 	color: #4aaaa5;	
-	border: solid 1px black;
 	line-height: 200%;
 	padding: 20px;
+	position: relative;
+	left: 140px;
 	margin-top: 30px;
-	margin-left: 15px;
-	margin-bottom: 30px;
-	float:left;
+	margin-bottom: 80px;
 	white-space: normal;
 
 }
 
-h1{
-
-}
-
 p {
-	float:left;
 	font-family: Arial, Helvetica, sans-serif;
-
+	color: #777777;
+	text-indent: 15px;
 }
 
+.aboutForm {
+	width: 650px;
+	height: 510px;
+	background-color: white;
+	color: #4aaaa5;	
+	line-height: 200%;
+	padding: 20px;
+	position: relative;
+	left: 140px;
+	margin-top: 30px;
+	margin-bottom: 70px;
+	white-space: normal;
+
+}
 
 .Connect {
 	background-color: white;
 	width: 270px;
-	margin-top: 30px;
-	margin-left: 17px;
-	margin-right: 20px;
-	border: solid 1px black;
-	float: left;
-
+	padding: 20px;
+	position: absolute;
+	bottom: 430px;
+	left: 960px;
 }
 
+li {
+	list-style: none;
+	display: inline-block;
+	border: 4px solid white;
+}
+
+a:visited {
+    color: green; 
+}
 
 footer {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #ddd;
 	text-align: center;
-	font-size: 13px;
-	background-color: #ccc;
+	font-size: 14px;
+	background-color: #666;
+	width: 100%;
 	clear: both;
 	overflow: auto;
-	padding: 20px;
+	padding: 30px;
 	border-top: solid 7px #4aaaa5;
+	position: relative;
+	bottom: 25px;
 
 }
